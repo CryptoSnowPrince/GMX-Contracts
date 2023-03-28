@@ -31,6 +31,7 @@ module.exports = async function () {
   const network = getNetwork()
   // deploy this manually for verification. ##################################################
   // ################################################## await deployContract("GLP", [chainInfo[network].glp.name, chainInfo[network].glp.symbol])
+  await deployContract("GLP", [chainInfo[network].glp.name, chainInfo[network].glp.symbol])
 
   const glp = await contractAt("GLP", getDeployFilteredInfo("GLP").imple)
 

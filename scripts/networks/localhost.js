@@ -50,10 +50,6 @@ const deploy_localhost = async () => {
     name: "MultiSigner6",
     imple: "0xfA9E2084fc38DaFca0aea969bE314061E5F1d424",
   });
-  // syncDeployInfo("WETH", {
-  //   name: "WETH",
-  //   imple: "0x191E94fa59739e188dcE837F7f6978d84727AD01",
-  // });
   await deployMulticall()
   await deployPriceFeedExt()
 

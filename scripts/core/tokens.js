@@ -270,9 +270,9 @@ module.exports = {
   core: {
     usdt: {
       name: "usdt",
-      address: "0x81bCEa03678D1CEF4830942227720D542Aa15817",
-      decimals: 18,
-      priceFeed: "0xC140D068b3809616465e23DA4901ef528ddaD9B7",
+      address: "0x7d43AABC515C356145049227CeE54B608342c0ad", // TODO
+      decimals: 6,
+      priceFeed: "0x9BB8A6dcD83E36726Cc230a97F1AF8a84ae5F128",
       priceDecimals: 8,
       stable: true,
       tokenWeight: 6000,
@@ -296,11 +296,11 @@ module.exports = {
       minLiquidityThresholdLong: 12 * 1000 * 1000,
       minLiquidityThresholdShort: 5 * 1000 * 1000,
     },
-    wcore: {
-      name: "wcore",
-      address: "0x191E94fa59739e188dcE837F7f6978d84727AD01",
+    wftm: {
+      name: "wftm",
+      address: "0x07B9c47452C41e8E00f98aC4c075F5c443281d2A", // TODO
       decimals: 18,
-      priceFeed: "0xCf6D7D49b0296788cDbA8d7f48cC784E29577fA6",
+      priceFeed: "0xe04676B9A9A2973BCb0D1478b5E1E9098BBB7f3D",
       priceDecimals: 8,
       stable: false,
       tokenWeight: 2000,
@@ -326,9 +326,9 @@ module.exports = {
     },
     weth: {
       name: "weth",
-      address: "0xeAB3aC417c4d6dF6b143346a46fEe1B847B50296",
+      address: "0xC360D44d9021E0d9D2781a6c5c269D209F43dAa7", // TODO
       decimals: 18,
-      priceFeed: "0x26aD6D7D6f7c671858b84f77A407730A7D89B9B0",
+      priceFeed: "0xB8C458C957a6e6ca7Cc53eD95bEA548c52AFaA24",
       priceDecimals: 8,
       stable: false,
       tokenWeight: 10000,
@@ -354,9 +354,9 @@ module.exports = {
     },
     wbtc: {
       name: "wbtc",
-      address: "0x428265c948C6C5FA56365CAd1449D8c2F2AE2D18",
-      decimals: 18,
-      priceFeed: "0xd5A2B8028e17B9eb8129E19214C3d209b5070D1C",
+      address: "0xa5aFDcaaD3E67261e2DEe707476699ef968cF57c", // TODO
+      decimals: 8,
+      priceFeed: "0x65E8d79f3e8e36fE48eC31A2ae935e92F5bBF529",
       priceDecimals: 8,
       stable: false,
       tokenWeight: 10000,
