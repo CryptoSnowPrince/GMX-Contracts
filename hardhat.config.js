@@ -49,10 +49,11 @@ task("accounts", "Prints the list of accounts", async () => {
 module.exports = {
   networks: {
     localhost: {
-      url: 'http://127.0.0.1:7545/',
+      url: 'http://127.0.0.1:8545/',
       timeout: 120000,
       accounts: {
-        mnemonic: "near cruel jar space pond motion evidence shed coach more drama pyramid",
+        // mnemonic: "near cruel jar space pond motion evidence shed coach more drama pyramid",
+        mnemonic: "test test test test test test test test test test test junk",
         path: "m/44'/60'/0'/0",
         initialIndex: 0,
         count: 10,
